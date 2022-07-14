@@ -6,7 +6,7 @@ __author__ = "Peter Yuen"
 __email__ = "ppeetteerrsx@gmail.com"
 __version__ = "0.0.0"
 with suppress(Exception):
-    __version__ = metadata.version("simple_poetry")
+    __version__ = metadata.version("opinion")
 
 
 def __test():  # pragma: no cover
@@ -14,7 +14,7 @@ def __test():  # pragma: no cover
     Runs pytest locally and keeps only `coverage.xml` for GitHub Actions to upload to Codecov.
     """
     shell(
-        "pytest --cov=simple_poetry --cov-report xml --cov-report term-missing tests \
+        "pytest --cov=opinion --cov-report xml --cov-report term-missing tests \
             && rm -rf .pytest_cache && rm .coverage"
     )
 

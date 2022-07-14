@@ -1,8 +1,8 @@
-site_name: simple-poetry
+site_name: opinion
 
-site_url: https://ppeetteerrs.github.io/simple-poetry
+site_url: https://ppeetteerrs.github.io/opinion
 
-repo_url: https://github.com/ppeetteerrs/simple-poetry
+repo_url: https://github.com/ppeetteerrs/opinion
 
 edit_uri: ""
 
@@ -32,7 +32,7 @@ theme:
 plugins:
     - search
     - mkdocstrings:
-          watch: [simple_poetry]
+          watch: [opinion]
           default_handler: python
           handlers:
               python:

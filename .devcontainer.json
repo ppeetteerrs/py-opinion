@@ -6,7 +6,7 @@
 	"postCreateCommand": "poetry install --only=dev",
 	"runArgs": [
 		"--name",
-		"simple-poetry"
+		"opinion"
 	],
 	"extensions": [
 		"ms-python.vscode-pylance",

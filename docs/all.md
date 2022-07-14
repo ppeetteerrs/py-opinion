@@ -1,1 +1,1 @@
-::: simple_poetry
+::: opinion

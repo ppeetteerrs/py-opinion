@@ -2,10 +2,10 @@
 
 **A clean, automated setup for publishing simple Python packages to PyPI using Poetry and GitHub Actions.**
 
-![action](https://img.shields.io/github/workflow/status/ppeetteerrs/simple-poetry/build?logo=githubactions&logoColor=white)
-[![pypi](https://img.shields.io/pypi/v/simple-poetry.svg)](https://pypi.python.org/pypi/simple-poetry)
-[![codecov](https://img.shields.io/codecov/c/github/ppeetteerrs/simple-poetry?label=codecov&logo=codecov)](https://app.codecov.io/gh/ppeetteerrs/simple-poetry)
-[![docs](https://img.shields.io/github/deployments/ppeetteerrs/simple-poetry/github-pages?label=docs&logo=readthedocs)](https://ppeetteerrs.github.io/simple-poetry)
+![action](https://img.shields.io/github/workflow/status/ppeetteerrs/opinion/build?logo=githubactions&logoColor=white)
+[![pypi](https://img.shields.io/pypi/v/opinion.svg)](https://pypi.python.org/pypi/opinion)
+[![codecov](https://img.shields.io/codecov/c/github/ppeetteerrs/opinion?label=codecov&logo=codecov)](https://app.codecov.io/gh/ppeetteerrs/opinion)
+[![docs](https://img.shields.io/github/deployments/ppeetteerrs/opinion/github-pages?label=docs&logo=readthedocs)](https://ppeetteerrs.github.io/opinion)
 
 ## Setup
 
@@ -15,9 +15,9 @@
 		- `PYPI_TOKEN`: PyPI API token
 
 2. Replace text in files
-	- Rename `simple_poetry` folder to `<package_name>`
-	- Replace all `simple_poetry` instance in files to `<package_name>`
-	- Replace all `simple-poetry` instance in files to `<package-name>`
+	- Rename `opinion` folder to `<package_name>`
+	- Replace all `opinion` instance in files to `<package_name>`
+	- Replace all `opinion` instance in files to `<package-name>`
 	- Replace all `3.8` instance in files to `<target-python-version>`
 	- Replace `ppeetteerrs` with `<github_user_name`>
 
